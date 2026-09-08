@@ -1,0 +1,12 @@
+{
+  "rpc_url": "https://api.mainnet-beta.solana.com",
+  "http_timeout_seconds": 20,
+  "performance_sample_limit": 60,
+  "top_validator_limit": 10,
+  "anomaly_thresholds": {
+    "tps_percent_from_sample_median": 35,
+    "delinquent_validator_percent": 5,
+    "sol_price_24h_percent": 10,
+    "dex_volume_24h_percent": 20
+  }
+}
