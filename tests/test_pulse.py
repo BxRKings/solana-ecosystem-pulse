@@ -78,6 +78,7 @@ class PulseTests(unittest.TestCase):
             self.assertIn("Solana Ecosystem Pulse", markdown)
             self.assertIn("Solana DEX volume changed", markdown)
             self.assertIn("Failed sources stay unavailable", webpage)
+            self.assertIn("$9B", webpage)
             self.assertNotIn("undefined", webpage)
 
     def test_empty_inputs_remain_unavailable(self):

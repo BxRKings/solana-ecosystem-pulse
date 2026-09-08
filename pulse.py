@@ -314,6 +314,16 @@ def format_value(value, suffix=""):
     return "{:,}{}".format(value, suffix) if isinstance(value, int) else str(value) + suffix
 
 
+def compact_usd(value):
+    value = safe_number(value)
+    if value is None:
+        return "Unavailable"
+    for scale, suffix in ((1_000_000_000_000, "T"), (1_000_000_000, "B"), (1_000_000, "M"), (1_000, "K")):
+        if abs(value) >= scale:
+            return "$%s%s" % (("%.2f" % (value / scale)).rstrip("0").rstrip("."), suffix)
+    return "$" + format_value(value)
+
+
 def render_markdown(report):
     n, v, e = report["network"], report["validators"], report["ecosystem"]
     rows = [
@@ -370,10 +380,10 @@ def render_html(report):
         ("Epoch", format_value(n.get("epoch_progress_percent"), "%")),
         ("Validators", v.get("active_count")),
         ("Delinquent", format_value(v.get("delinquent_percent"), "%")),
-        ("SOL", "$" + format_value(e.get("sol_price_usd"))),
-        ("TVL", "$" + format_value(e.get("tvl_usd"))),
-        ("Stablecoins", "$" + format_value(e.get("stablecoin_supply_usd"))),
-        ("DEX volume", "$" + format_value(e.get("dex_volume_24h_usd"))),
+        ("SOL", compact_usd(e.get("sol_price_usd"))),
+        ("TVL", compact_usd(e.get("tvl_usd"))),
+        ("Stablecoins", compact_usd(e.get("stablecoin_supply_usd"))),
+        ("DEX volume", compact_usd(e.get("dex_volume_24h_usd"))),
     ]
     card_html = "".join('<article><span>%s</span><strong>%s</strong></article>' % (html.escape(str(k)), html.escape(format_value(val) if not isinstance(val, str) else val)) for k, val in cards)
     anomalies = "".join("<li><b>%s</b> %s</li>" % (html.escape(x["severity"]), html.escape(x["message"])) for x in report["anomalies"]) or "<li>No configured threshold was crossed.</li>"

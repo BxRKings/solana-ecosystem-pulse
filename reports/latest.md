@@ -1,21 +1,21 @@
 # Solana Ecosystem Pulse
 
-Generated 2026-09-08T03:39:14Z. Values marked unavailable were not invented or carried forward.
+Generated 2026-09-08T03:41:34Z. Values marked unavailable were not invented or carried forward.
 
 ## Current snapshot
 
 | Metric | Value |
 | --- | ---: |
 | Network health | ok |
-| Finalized slot | 445,237,956 |
-| Average TPS | 3,761.38 |
-| Non-vote TPS | 1,635.73 |
-| Average slot time | 316.23 ms |
-| Epoch progress | 64.34% |
+| Finalized slot | 445,238,404 |
+| Average TPS | 3,767.95 |
+| Non-vote TPS | 1,641.93 |
+| Average slot time | 316.15 ms |
+| Epoch progress | 64.45% |
 | Active validators | 676 |
 | Delinquent validators | 1.74% |
 | 33% Nakamoto coefficient | 18 |
-| SOL price | $103.23 |
+| SOL price | $103.27 |
 | SOL 24h change | -1.72% |
 | Solana TVL | $5,922,486,521.92 |
 | Stablecoin supply | $16,629,264,342.32 |

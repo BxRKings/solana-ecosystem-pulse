@@ -3,30 +3,30 @@
   "ecosystem": {
     "dex_volume_24h_usd": 2872025884.66,
     "dex_volume_change_24h_percent": -1.12,
-    "price_last_updated_unix": 1788838620,
+    "price_last_updated_unix": 1788838790,
     "sol_price_change_24h_percent": -1.72,
-    "sol_price_usd": 103.23,
+    "sol_price_usd": 103.27,
     "stablecoin_supply_usd": 16629264342.32,
     "tvl_usd": 5922486521.92
   },
   "errors": [],
-  "generated_at": "2026-09-08T03:39:14Z",
+  "generated_at": "2026-09-08T03:41:34Z",
   "network": {
-    "average_slot_ms": 316.23,
-    "circulating_supply_sol": 586165542.52,
+    "average_slot_ms": 316.15,
+    "circulating_supply_sol": 586165541.16,
     "epoch": 1030,
-    "epoch_progress_percent": 64.34,
-    "epoch_slot_index": 277957,
+    "epoch_progress_percent": 64.45,
+    "epoch_slot_index": 278404,
     "epoch_slots": 432000,
-    "finalized_block_time_unix": 1788838743,
-    "finalized_slot": 445237956,
+    "finalized_block_time_unix": 1788838884,
+    "finalized_slot": 445238404,
     "health": "ok",
-    "latest_sample_tps": 3660.9,
-    "non_vote_tps": 1635.73,
+    "latest_sample_tps": 3776.33,
+    "non_vote_tps": 1641.93,
     "sample_count": 60,
-    "sample_median_tps": 3705.43,
+    "sample_median_tps": 3709.97,
     "sample_window_seconds": 3600,
-    "tps": 3761.38
+    "tps": 3767.95
   },
   "schema_version": 1,
   "source_status": {
@@ -60,70 +60,70 @@
       {
         "activated_stake_sol": 17438540.52,
         "commission_percent": 7,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 3.968,
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1"
       },
       {
         "activated_stake_sol": 16336963.68,
         "commission_percent": 0,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 3.718,
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk"
       },
       {
         "activated_stake_sol": 12517399.06,
         "commission_percent": 0,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 2.849,
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g"
       },
       {
         "activated_stake_sol": 11397824.23,
         "commission_percent": 5,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 2.594,
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb"
       },
       {
         "activated_stake_sol": 9564411.53,
         "commission_percent": 0,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 2.177,
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD"
       },
       {
         "activated_stake_sol": 9181909.19,
         "commission_percent": 7,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 2.09,
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx"
       },
       {
         "activated_stake_sol": 9038443.43,
         "commission_percent": 10,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 2.057,
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm"
       },
       {
         "activated_stake_sol": 7384460.72,
         "commission_percent": 7,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 1.68,
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF"
       },
       {
         "activated_stake_sol": 6858928.88,
         "commission_percent": 5,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 1.561,
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB"
       },
       {
         "activated_stake_sol": 6595420.72,
         "commission_percent": 0,
-        "last_vote": 445237957,
+        "last_vote": 445238404,
         "stake_percent": 1.501,
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a"
       }
